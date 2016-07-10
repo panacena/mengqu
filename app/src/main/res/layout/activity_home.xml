@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frameContent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/black_margin" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:background="@color/white2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_picture"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/home_buttom_wh"
+                    android:layout_height="@dimen/home_buttom_wh"
+                    android:src="@drawable/selector_btn_picture" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2.0dip"
+                    android:text="图集"
+                    android:textColor="@drawable/text_color_blue_to_white"
+                    android:textSize="@dimen/main_text_size_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_game"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/home_buttom_wh"
+                    android:layout_height="@dimen/home_buttom_wh"
+                    android:src="@drawable/selector_btn_paint" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2.0dip"
+                    android:text="游戏"
+                    android:textColor="@drawable/text_color_blue_to_white"
+                    android:textSize="@dimen/main_text_size_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_daily"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/home_buttom_wh"
+                    android:layout_height="@dimen/home_buttom_wh"
+                    android:src="@drawable/selector_btn_daily" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2.0dip"
+                    android:text="社区"
+                    android:textColor="@drawable/text_color_blue_to_white"
+                    android:textSize="@dimen/main_text_size_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_info"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/home_buttom_wh"
+                    android:layout_height="@dimen/home_buttom_wh"
+                    android:src="@drawable/selector_info_btn" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2.0dip"
+                    android:text="资讯"
+                    android:textColor="@drawable/text_color_blue_to_white"
+                    android:textSize="@dimen/main_text_size_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_user"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/home_buttom_wh"
+                    android:layout_height="@dimen/home_buttom_wh"
+                    android:src="@drawable/selector_home_btn3" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="2.0dip"
+                    android:text="我"
+                    android:textColor="@drawable/text_color_blue_to_white"
+                    android:textSize="@dimen/main_text_size_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

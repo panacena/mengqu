@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+   <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/iv_avart_bg"
+            android:layout_width="82.0dip"
+            android:layout_height="83.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/avarat_small_bg">
+
+            <ImageView
+                android:id="@+id/comic_user_img"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        android:background="@color/white2">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_content"
+                android:layout_width="wrap_content"
+                android:layout_height="30.0dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+
+            <Button
+                android:id="@+id/like_btn"
+                android:layout_width="45.0dip"
+                android:layout_height="25.0dip"
+                android:layout_marginLeft="7.0dip"
+                android:background="@drawable/shape_comic_like"
+                android:gravity="center"
+                android:text="+3333"
+                android:textColor="@color/white_pure"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_painter_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:text="删除"
+            android:textColor="@color/painter_delete_bg"
+            android:textSize="15.0sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/comic_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:background="@color/white_pure" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="12.0dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_paint_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="画师画集的标题"
+            android:textColor="@color/black_tip"
+            android:textSize="@dimen/user_avart_text" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.0dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_paint_time"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="15.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center|right"
+                android:text="10月10日"
+                android:textColor="@color/black_tip"
+                android:textSize="@dimen/user_avart_text" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="Liked?"
+                    android:textColor="@color/black_tip"
+                    android:textSize="@dimen/user_avart_text" />
+
+                <ImageView
+                    android:id="@+id/iv_paint_like"
+                    android:layout_width="26.0dip"
+                    android:layout_height="23.0dip"
+                    android:layout_marginLeft="18.0dip"
+                    android:background="@drawable/liked_gray2x" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="12.0dip"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_weight="1.0"
+                android:background="@color/black_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="评论"
+                android:textColor="@color/black_tip"
+                android:textSize="@dimen/user_avart_text" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_weight="1.0"
+                android:background="@color/black_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

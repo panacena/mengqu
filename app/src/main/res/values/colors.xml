@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white2">#fff6f6f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_margin">#ffdbdbdb</color>
+
+    <color name="red">#ffff0000</color>
+    <color name="white_pure">#ffffffff</color>
+    <color name="txt_title">#ff333333</color>
+    <color name="usercenter_body_bg">#fff2f2f2</color>
+
+    <color name="black_info_title">#ff545454</color>
+    <color name="gray">#ff9a9a9a</color>
+    <color name="black_title">#ff4e5151</color>
+    <color name="blue">#ff0596eb</color>
+
+    <color name="shape_register_code">#ffec8b06</color>
+    <color name="black_gray">#ffe3e4e6</color>
+
+
+    <color name="white_shadow">#33000000</color>
+    <color name="color_BG4">#ff000000</color>
+
+
+    <color name="black">#ff000000</color>
+    <color name="half_transparent2">#33000000</color>
+
+    <color name="text_forgetpwd_checked">#ffff9600</color>
+    <color name="black_item">#ff8f8f8f</color>
+
+    <color name="gray_color">#aadadada</color>
+    <color name="black_info_time">#ff054a65</color>
+    <color name="app_dhqb_tag_color">#fff26c75</color>
+    <color name="gray_background">#fff0f1f5</color>
+    <color name="gray_text_4">#ffb3b3b3</color>
+    <color name="zaiwai_name">#ff0dbec8</color>
+    <color name="black_dark_2">#ff999999</color>
+    <color name="text_forgetpwd_unchecked">#ffb9b9b9</color>
+    <color name="comic_title">#ff787878</color>
+
+    <color name="comment_username">#ff054a65</color>
+    <color name="comment_floor">#ff7b818c</color>
+    <color name="comment_content">#ff7b818c</color>
+    <color name="coment_reply_bg">#fff9f9f9</color>
+    <color name="comment_reply_name">#ff0788d4</color>
+    <color name="comment_reply_content">#ff0c1623</color>
+    <color name="painter_delete_bg">#fff25850</color>
+    <color name="black_tip">#ff242424</color>
+    <color name="listview_item_selector">#ff1d9cd6</color>
+    <color name="yello_comicer">#ffff5252</color>
+    <color name="pink">#ffffc0cb</color>
+</resources>

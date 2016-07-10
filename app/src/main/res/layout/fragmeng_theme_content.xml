@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gv_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_gray"
+        android:horizontalSpacing="1.0dip"
+        android:listSelector="@drawable/selector_tag"
+        android:numColumns="2"
+        android:verticalSpacing="1.0dip" />
+</RelativeLayout>

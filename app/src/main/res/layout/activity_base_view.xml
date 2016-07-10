@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:id="@+id/include_frame_baseview"
+    android:layout_height="fill_parent" >
+
+
+    <ViewStub
+        android:id="@+id/viewstub_empty_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout="@layout/activity_base_empty_loading_view" />
+
+    <ViewStub
+        android:id="@+id/viewstub_empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout="@layout/activity_base_empty_view" />
+
+</FrameLayout>

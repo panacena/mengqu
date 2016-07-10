@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black_margin" />
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+
+        <LinearLayout
+            android:id="@+id/order_menu_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="10.0dip">
+
+            <TextView
+                android:id="@+id/game_tv_info"
+                android:layout_width="120.0dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_info"
+                android:gravity="center_horizontal"
+                android:paddingBottom="8.0dip"
+                android:paddingTop="8.0dip"
+                android:singleLine="true"
+                android:text="最新资讯"
+                android:textColor="@color/white2"
+                android:textSize="14.0dip" />
+
+            <TextView
+                android:id="@+id/game_tv_topic"
+                android:layout_width="120.0dip"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_info_right"
+                android:gravity="center_horizontal"
+                android:paddingBottom="8.0dip"
+                android:paddingTop="8.0dip"
+                android:singleLine="true"
+                android:text="精彩专题"
+                android:textColor="@color/blue"
+                android:textSize="14.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/game_viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white2" />
+</LinearLayout>

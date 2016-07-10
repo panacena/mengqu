@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/ll_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:padding="15.0dip"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:text="关闭"
+            android:textColor="@color/blue" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_share"
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip">
+
+            <ImageView
+                android:layout_width="23.0dip"
+                android:layout_height="21.0dip"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/share2x" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_download_header"
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:layout_toLeftOf="@+id/rl_share">
+
+            <ImageView
+                android:layout_width="23.0dip"
+                android:layout_height="21.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/download_header" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/tv_num_info"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerInParent="true"
+        android:gravity="center" />
+
+    <com.bm.library.PhotoView
+        android:layout_below="@+id/ll_title"
+        android:id="@+id/layout_shareView"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/save_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/half_transparent2"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_white_bg"
+            android:text="取消"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_cancle"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/btn_white_bg"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_normal"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@color/transparent"
+                android:text="标清"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/gray" />
+
+            <Button
+                android:id="@+id/btn_artwork"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@color/transparent"
+                android:text="原图"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

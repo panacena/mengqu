@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_tag"
+    android:padding="5.0dip">
+
+    <ImageView
+        android:id="@+id/iv_tagImg"
+        android:layout_width="fill_parent"
+        android:layout_height="160.0dip" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="160.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_research_item_tag">
+
+        <TextView
+            android:id="@+id/tv_tagName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white2"
+            android:textSize="28.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

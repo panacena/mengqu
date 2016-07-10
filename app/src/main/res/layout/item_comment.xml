@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_pure"
+    android:paddingLeft="@dimen/space_15"
+    android:paddingRight="@dimen/space_15"
+    android:paddingTop="@dimen/space_15">
+
+    <ImageView
+        android:id="@+id/comment_img"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip" />
+
+    <RelativeLayout
+        android:id="@+id/ll_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_13"
+        android:layout_toRightOf="@+id/comment_img"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/comment_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textColor="@color/comment_username"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/comment_floor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/space_20"
+            android:text="99#"
+            android:textColor="@color/comment_floor"
+            android:textSize="@dimen/text_size_14" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_content"
+        android:layout_marginLeft="@dimen/space_13"
+        android:layout_marginTop="@dimen/space_6"
+        android:layout_toRightOf="@+id/comment_img">
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="内容"
+            android:textColor="@color/comment_content"
+            android:textSize="@dimen/text_size_12" />
+
+        <ImageView
+            android:id="@+id/simg_cover"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:background="@color/black_gray"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_relies"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_content"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/space_4"
+        android:layout_toRightOf="@+id/comment_img"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingLeft="@dimen/dimen_10" >
+
+        <include layout="@layout/item_comment_reply" />
+      </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_relies"
+        android:layout_marginBottom="8.0dip"
+        android:layout_marginTop="@dimen/space_3"
+        android:layout_toRightOf="@+id/comment_img">
+
+        <TextView
+            android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="时间"
+            android:textColor="@color/comment_content"
+            android:textSize="@dimen/text_size_12" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@+id/rl_comment"
+        android:layout_marginLeft="@dimen/space_13"
+        android:layout_marginTop="4.0dip"
+        android:background="@color/black_margin" />
+</RelativeLayout>

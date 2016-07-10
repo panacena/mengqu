@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_comer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_user_info" />
+
+    <LinearLayout
+        android:id="@+id/ll_upload_comic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/listview_selector"
+        android:clickable="true"
+        android:orientation="vertical">
+
+       <!-- <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/black_margin" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="12.0dip">
+
+            <ImageView
+                android:layout_width="27.0dip"
+                android:layout_height="20.0dip"
+                android:layout_marginLeft="16.0dip"
+                android:src="@drawable/upload_icon" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_weight="1.0"
+                android:text="@string/upload_comics"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/main_text_size_large" />
+
+            <ImageView
+                android:layout_width="9.0dip"
+                android:layout_height="15.0dip"
+                android:background="@drawable/selector_indicator" />
+        </LinearLayout>
+-->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/black_margin" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "24.0.0 rc4"
+
+    defaultConfig {
+        applicationId "zkk.com.mengqu"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23+'
+
+    /*retrofit2 的依赖   http库(动态代理)
+    * 讲解 http://www.jianshu.com/p/c1a3a881a144
+    *
+    *git  地址 https://github.com/square/retrofit
+    * */
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+
+
+    /*RxAndroid  的依赖(异步)
+    * 讲解 http://gank.io/post/560e15be2dca930e00da1083
+    *git 地址 https://github.com/ReactiveX/RxAndroid
+    * */
+    compile 'io.reactivex:rxandroid:1.2.0'
+    compile 'io.reactivex:rxjava:1.1.5'
+
+    /* glide 的依赖 图片加载库
+     * 讲解http://blog.csdn.net/fancylovejava/article/details/44747759
+     * git https://github.com/bumptech/glide
+     */
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    /*roundedimageview (不支持glide)
+    * git 地址 https://github.com/vinc3m1/RoundedImageView
+    *//*
+    compile 'com.makeramen:roundedimageview:2.2.1'*/
+
+
+    /*圆形ImageView
+    * git 地址 https://github.com/hdodenhof/CircleImageView
+    */
+  //  compile 'de.hdodenhof:circleimageview:2.0.0'
+
+    /*圆形ImageView
+    * git 地址 https://github.com/wasabeef/glide-transformations
+    */
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+
+    /*支持  header footer的 gridview
+    * git 地址 https://github.com/liaohuqiu/android-GridViewWithHeaderAndFooter
+    */
+
+    compile 'in.srain.cube:grid-view-with-header-footer:1.0.12'
+
+    /*
+     *Photoview
+     * Git 地址 https://github.com/bm-x/PhotoView
+     */
+    compile 'com.bm.photoview:library:1.4.0'
+
+    /* 下拉图片变大
+     *git地址 ；https://github.com/Frank-Zhu/PullZoomView/
+     */
+   /* compile 'com.github.frank-zhu:pullzoomview:1.0.0'*/
+
+    compile project(':library')
+
+    /*
+     * git 地址  https://github.com/baoyongzhang/Treasure
+     */
+
+    compile 'com.baoyz.treasure:treasure:0.5.0'
+    provided 'com.baoyz.treasure:treasure-compiler:0.5.0'
+}

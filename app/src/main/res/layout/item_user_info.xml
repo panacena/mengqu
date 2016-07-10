@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10.0dip"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_comic_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comic_guess_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\ 26"
+            android:textColor="@color/blue"
+            android:textSize="24.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天猜图"
+            android:textColor="@color/black_info_title"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:id="@+id/ll_comic_comicer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comicer_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\ 26"
+            android:textColor="@color/blue"
+            android:textSize="24.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张画作"
+            android:textColor="@color/black_info_title"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_painter"
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:id="@+id/ll_daily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_daily_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\ 26"
+            android:textColor="@color/blue"
+            android:textSize="24.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="份日常"
+            android:textColor="@color/black_info_title"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_comic_like_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\ 26"
+            android:textColor="@color/pink"
+            android:textSize="24.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liked"
+            android:textColor="@color/black_info_title"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+</LinearLayout>

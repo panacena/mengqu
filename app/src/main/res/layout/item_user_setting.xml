@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_setting"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="16.0dip"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:id="@+id/ll_store"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/listview_selector"
+        android:gravity="center_vertical"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="12.0dip">
+
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="21.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/setting_type" />
+
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_weight="1.0"
+            android:text="关于我们"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/main_text_size_large" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/black_margin" />
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="16.0dip"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:id="@+id/ll_download"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/listview_selector"
+        android:gravity="center_vertical"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="12.0dip">
+
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="21.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/download" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_weight="1.0"
+            android:text="下载"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/main_text_size_large" />
+
+        <ImageView
+            android:layout_width="9.0dip"
+            android:layout_height="15.0dip"
+            android:background="@drawable/selector_indicator" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginTop="16.0dip"
+        android:background="@color/black_margin" />
+
+    <LinearLayout
+        android:id="@+id/ll_clear"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@drawable/listview_selector"
+        android:gravity="center_vertical"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="12.0dip">
+
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="21.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:src="@drawable/clear" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_weight="1.0"
+            android:text="清除缓存"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/main_text_size_large" />
+
+        <ImageView
+            android:layout_width="9.0dip"
+            android:layout_height="15.0dip"
+            android:background="@drawable/selector_indicator" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/black_margin" />
+</LinearLayout>

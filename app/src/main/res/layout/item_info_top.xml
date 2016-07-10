@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="24.0dip"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="20.0dip"
+                android:layout_height="1.5dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="2.0dip"
+                android:background="@drawable/login_dividing_lin" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="-3.0dip"
+                android:textColor="@color/black_info_time"
+                android:textSize="@dimen/main_text_size_xxxlarge" />
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="1.5dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/login_dividing_lin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/item_simple_ico"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="90.0dip"
+                android:layout_height="75.0dip" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    android:layout_width="50.0dip"
+                    android:layout_height="18.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:background="@drawable/btn_dhqb_bg"
+                    android:gravity="center"
+                    android:text="动画情报"
+                    android:textColor="@color/white2"
+                    android:textSize="@dimen/main_text_size_tiny" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:maxLines="2"
+                    android:text="的神经分裂快结束了款到即发陆地上看见了开房间山东龙口"
+                    android:textColor="@color/black_info_title"
+                    android:textSize="@dimen/main_text_size_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/coment_reply_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/space_4">
+
+    <TextView
+        android:id="@+id/tv_reply_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:text="用户名"
+        android:textColor="@color/comment_reply_name"
+        android:textSize="@dimen/text_size_14" />
+
+    <TextView
+        android:id="@+id/tv_reply_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_4"
+        android:text="评论内容"
+        android:textColor="@color/comment_reply_content"
+        android:textSize="@dimen/text_size_14" />
+
+    <ImageView
+        android:id="@+id/simg_pic"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_marginTop="@dimen/space_4"
+        android:background="@color/black_gray"
+        android:visibility="gone" />
+</LinearLayout>

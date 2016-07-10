@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/usercenter_body_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/user_image"
+        android:layout_width="fill_parent"
+        android:layout_height="52.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@color/white2"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@null"
+            android:hint="手机"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="@color/black_info_title"
+            android:textColorHint="@color/gray"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/login_magin_line" />
+
+    <RelativeLayout
+        android:id="@+id/password_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/white2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_user_code"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15.0dip"
+            android:background="@null"
+            android:hint="验证码"
+            android:inputType="text"
+            android:textColor="@color/black_title"
+            android:textColorHint="@color/gray"
+            android:textSize="13.0sp" />
+
+        <Button
+            android:id="@+id/item_forgetpwd_btn_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_20"
+            android:background="@drawable/shape_user_register_code"
+            android:paddingLeft="@dimen/dimen_3"
+            android:paddingRight="@dimen/dimen_3"
+            android:text="获取验证码（60s）"
+            android:textColor="@color/white2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="@dimen/dimen_30">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_reg_btn"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/white2"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToZoomView"><attr format="reference" name="headerView"/><attr format="reference" name="contentView"/><attr format="reference" name="zoomView"/><attr format="boolean" name="isHeaderParallax"/></declare-styleable>
+    <!-- From: file:/D:/Android/Code/PullZoomView/PullToZoomView/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="scrollview" type="id"/>
+    <!-- From: file:/D:/Android/Code/PullZoomView/PullToZoomView/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+</resources>

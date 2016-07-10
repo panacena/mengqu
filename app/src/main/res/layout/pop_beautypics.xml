@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:background="@color/color_BG4" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/poiPhotoPager"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+  <!--  <ImageView
+        android:id="@+id/photoTopBg"
+        android:layout_width="fill_parent"
+        android:layout_height="125.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pic_view_bottom_shadow" />
+
+    <RelativeLayout
+        android:id="@+id/photoTopLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="47.5dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25.0dip"
+        android:background="@color/transparent" >
+
+        <RelativeLayout
+            android:id="@+id/photoTopBackButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="15.0dip" >
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/photoBottomBg"
+        android:layout_width="fill_parent"
+        android:layout_height="125.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/pic_view_bottom_shadow" />-->
+
+
+</RelativeLayout>

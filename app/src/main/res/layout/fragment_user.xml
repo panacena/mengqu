@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white2"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="50.0dip"
+                android:layout_height="30.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="15.0dip">
+
+                <View
+                    android:id="@+id/v_notice"
+                    android:layout_width="5.0dip"
+                    android:layout_height="5.0dip"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/shape_reddot" />
+
+                <TextView
+                    android:id="@+id/tv_message"
+                    android:layout_width="50.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_marginRight="3.0dip"
+                    android:layout_marginTop="1.0dip"
+                    android:gravity="right"
+                    android:text="消息"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/iv_avart_bg"
+                android:layout_width="108.0dip"
+                android:layout_height="108.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25.0dip"
+                android:background="@drawable/avarat_small_bg">
+
+                <ImageView
+                    android:id="@+id/iv_avart"
+                    android:layout_width="@dimen/user_avart_wh"
+                    android:layout_height="@dimen/user_avart_wh" />
+
+                <ImageView
+                    android:id="@+id/badge"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/icon_comic"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="200.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_avart_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12.0dip"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:textColor="@color/black_info_title"
+                android:textSize="@dimen/user_name_text"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_game_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_user_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center_horizontal"
+                android:text="点击登录"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/user_avart_text" />
+        </RelativeLayout>
+
+        <include
+            layout="@layout/item_comicer_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/ll_request"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="16.0dip"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/black_margin" />
+
+            <RelativeLayout
+                android:id="@+id/rl_comic"
+                android:layout_width="fill_parent"
+                android:layout_height="48.0dip"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="32.0dip"
+                android:paddingRight="15.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/user_comic"
+                    android:textColor="@color/yello_comicer"
+                    android:textSize="@dimen/main_text_size_large" />
+
+                <TextView
+                    android:id="@+id/tv_comcer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/user_comicer"
+                    android:textColor="@color/yello_comicer"
+                    android:textSize="@dimen/main_text_size_normal"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_info_comicer"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_comic" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:background="@color/black_margin" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_login_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white2"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+
+            <include
+                layout="@layout/item_user_setting"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

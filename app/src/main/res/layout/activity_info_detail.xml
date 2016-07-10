@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="-100.0dip"
+        android:background="@drawable/webview_top_triangle"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="10.0dip">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06/01"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/main_text_size_xlarge" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="62.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginTop="8.0dip"
+            android:background="@drawable/btn_dhqb_bg"
+            android:gravity="center"
+            android:text="动画情报"
+            android:textColor="@color/white2"
+            android:textSize="@dimen/main_text_size_small" />
+    </LinearLayout>
+
+   <!-- <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="right" />
+-->
+   <WebView
+        android:id="@+id/content_webview2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:background="@color/white2" />
+</LinearLayout>

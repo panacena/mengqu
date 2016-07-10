@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="main_text_size_large">16.0sp</dimen>
+
+    <dimen name="dimen_20">20.0dip</dimen>
+    <dimen name="dimen_3">3.0dip</dimen>
+    <dimen name="dimen_30">30dip</dimen>
+    <dimen name="dimen_10">10.0dip</dimen>
+    <dimen name="dimen_45">45.0dip</dimen>
+    <dimen name="dimen_8">8.0dip</dimen>
+
+    <dimen name="space_5">5.0dip</dimen>
+
+
+    <dimen name="main_text_size_xxxlarge">22.0sp</dimen>
+    <dimen name="text_size_13">13.0sp</dimen>
+    <dimen name="main_text_size_tiny">10.0sp</dimen>
+    <dimen name="main_text_size_normal">14.0sp</dimen>
+    <dimen name="home_bottom_btn_height">49.0dip</dimen>
+    <dimen name="home_buttom_wh">25.0dip</dimen>
+    <dimen name="main_text_size_small">12.0sp</dimen>
+
+    <dimen name="page_margin_width">10.0dip</dimen>
+    <dimen name="main_text_size_xlarge">18.0sp</dimen>
+
+    <dimen name="space_15">15.0dip</dimen>
+    <dimen name="space_13">13.0dip</dimen>
+    <dimen name="space_20">20.0dip</dimen>
+    <dimen name="space_6">6.0dip</dimen>
+    <dimen name="space_3">3.0dip</dimen>
+    <dimen name="space_4">4.0dip</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_12">12.0sp</dimen>
+    <dimen name="user_avart_text">14.0sp</dimen>
+
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="user_avart_wh">105.0dip</dimen>
+
+    <dimen name="user_name_text">24.0sp</dimen>
+</resources>
