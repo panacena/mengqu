@@ -11,10 +11,6 @@ http://fir.im/pu3x
 
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-15_zkk.com.mengqu.png)
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-27_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-41_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-52_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-56_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-03_zkk.com.mengqu.png)
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-10_zkk.com.mengqu.png)
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-14_zkk.com.mengqu.png)
 
