@@ -5,7 +5,8 @@
 
 
 有时间把它的一些界面和功能实现了下，具体的页面如下:
-下载地址在文章最下方哦。
+App下载地址:
+http://fir.im/pu3x
 
 
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-15_zkk.com.mengqu.png)
@@ -16,14 +17,7 @@
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-03_zkk.com.mengqu.png)
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-10_zkk.com.mengqu.png)
 ![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-14_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-23_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-32_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-41_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-48_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-19-04_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-19-22_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-19-28_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-21-05_zkk.com.mengqu.png)
+
 
 
 使用到的技术：
