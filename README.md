@@ -1,5 +1,10 @@
 # mengqu
-高仿萌趣app
+
+萌聚官方说法：由于广警局查水表，被请喝茶了，限制的地方太多，别说奶子，泳衣，欧白太大，动作太挑逗都不行，我们不堪鸭梨，撑不住最后公司还是决定下架了。！
+
+所以现在所有的接口获取不到数据了！！！很尴尬！！！
+
+高仿萌聚app
 最近下了个叫做“萌趣”的app，内容简直是宅男福利啊！
 
 
@@ -9,10 +14,6 @@ App下载地址:
 http://fir.im/pu3x
 
 
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-15_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-17-27_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-10_zkk.com.mengqu.png)
-![image](https://github.com/panacena/mengqu/blob/master/readme/Screenshot_2016-07-10-22-18-14_zkk.com.mengqu.png)
 
 
 
